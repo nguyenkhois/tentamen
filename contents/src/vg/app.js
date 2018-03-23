@@ -8,11 +8,9 @@ let productPrice = $("#productPrice");
 let productStatus = $("#productStatus");
 
 btnAddProduct.click(function () {
-    let myId = productId.val();
-    alert(myId);
-    FormValidator.addValidator(productId,function (myId) {
+    let myvar = FormValidator.addValidator('isStringNotEmpty',function () {
         return true;
     });
 
-
+    console.log(myvar);
 });

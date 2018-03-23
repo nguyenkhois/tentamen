@@ -64,13 +64,9 @@ const FormValidator = {
 
     addValidator(validatorName, validatorFunction) {
         // spara undan en validator funktion med med ett givet namn.
-        alert("In now");
-        alert(validatorName.val());
-        alert(validatorFunction);
-        if (validatorFunction === true)
-            alert("true babby");
-        else
-            alert("false baby");
+        console.log(validatorName);
+        console.log(validatorFunction);
+
     },
 
     prepare(mapping) {
