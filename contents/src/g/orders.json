@@ -1,3 +1,18 @@
 {
-  "orders": []
+  "orders": [
+    {
+      "items[0][productId]": "8",
+      "items[0][noUnits]": "1",
+      "items[1][productId]": "7",
+      "items[1][noUnits]": "1",
+      "id": 1
+    },
+    {
+      "items[0][productId]": "3",
+      "items[0][noUnits]": "2",
+      "items[1][productId]": "5",
+      "items[1][noUnits]": "1",
+      "id": 2
+    }
+  ]
 }

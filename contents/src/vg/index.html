@@ -9,7 +9,26 @@
 <body>
 
     <!-- HTML för att implementera krav F -->
-
+    <p id="dspMessage"></p>
+    <form action="#">
+        <label for="productId">Id</label>
+        <input type="number" id="productId" value="0" min="0" max="9999">
+        <br>
+        <label for="productName">Name</label>
+        <input type="text" id="productName" required>
+        <br>
+        <label for="productPrice">Price</label>
+        <input type="number" id="productPrice" value="1" min="1" required>
+        <br>
+        <label for="productStatus">Status</label>
+        <select name="productStatus" id="productStatus">
+            <option value="OUT_OF_STOCK">OUT_OF_STOCK</option>
+            <option value="IN_STOCK" selected>IN_STOCK</option>
+            <option value="DELIVERY_PENDING">DELIVERY_PENDING</option>
+        </select>
+        <br>
+        <button id="btnAddProduct" type="button">Add product</button>
+    </form>
     <!-- Scripts -->
     <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
     <script src="validator.js"></script>
